@@ -1027,10 +1027,10 @@ async def example(Ghost):
     for index in GIVEAWAYBOTS:
         giveawayBots.append(int(index))
 
-    version = "2.3.7"
+    version = "1.0,0"
     cycleStatusText = ""
     cycleStatus = False
-    discordServer = "discord.gg/reKgzfRrpt"
+    discordServer = "discord.gg/qgbXvhDABY"
     uwuifyEnabled = False
     channelBlankChar = "᲼"
     spammingMessages = False
