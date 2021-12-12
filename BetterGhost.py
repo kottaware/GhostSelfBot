@@ -551,10 +551,10 @@ try:
     "embedtitle": "BetterGhost",
     "embedcolour": "#3B79FF",
     "consolecolour": "#3B79FF",
-    "embedfooter": "5mf.github.io/ghost/",
-    "embedfooterimage": "https://5mf.github.io/ghost/assets/icon.gif",
+    "embedfooter": "https://5mf.github.io/ghost/",
+    "embedfooterimage": "http://5mf.github.io/ghost/assets/icon.gif",
     "globalemoji": ":blue_heart:",
-    "embedimage": "https://5mf.github.io/ghost/assets/icon.gif"
+    "embedimage": "http://5mf.github.io/ghost/assets/icon.gif"
 }
         """)
         f.close()
@@ -6282,7 +6282,7 @@ You have risk mode disabled, you cant use this command.
         else:
             icon = str(icon)
             text = text.replace(" ", "+")
-            image = requests.get(f"https://api.alexflipnote.dev/achievement?text={text}&icon={icon}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/achievement?text={text}&icon={icon}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6307,7 +6307,7 @@ You have risk mode disabled, you cant use this command.
                 await ctx.send("This command requires an alexflipnote API key.")                     
         else:                
             text = text.replace(" ", "+")
-            image = requests.get(f"https://api.alexflipnote.dev/challenge?text={text}&icon={icon}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/challenge?text={text}&icon={icon}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6332,7 +6332,7 @@ You have risk mode disabled, you cant use this command.
                 await ctx.send("This command requires an alexflipnote API key.")                     
         else:                
             text = text.replace(" ", "+")
-            image = requests.get(f"https://api.alexflipnote.dev/captcha?text={text}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/captcha?text={text}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6357,7 +6357,7 @@ You have risk mode disabled, you cant use this command.
                 await ctx.send("This command requires an alexflipnote API key.")                     
         else:                
             imageurl = avatarUrl(user.id, user.avatar)
-            image = requests.get(f"https://api.alexflipnote.dev/amiajoke?image={imageurl}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/amiajoke?image={imageurl}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6383,7 +6383,7 @@ You have risk mode disabled, you cant use this command.
         else:                
             text1 = text1.replace(" ", "+")
             text2 = text2.replace(" ", "+")
-            image = requests.get(f"https://api.alexflipnote.dev/didyoumean?top={text1}&bottom={text2}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/didyoumean?top={text1}&bottom={text2}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6409,7 +6409,7 @@ You have risk mode disabled, you cant use this command.
         else:                
             text1 = text1.replace(" ", "+")
             text2 = text2.replace(" ", "+")
-            image = requests.get(f"https://api.alexflipnote.dev/drake?top={text1}&bottom={text2}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/drake?top={text1}&bottom={text2}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6434,7 +6434,7 @@ You have risk mode disabled, you cant use this command.
                 await ctx.send("This command requires an alexflipnote API key.")                     
         else:                
             text = text.replace(" ", "+")
-            image = requests.get(f"https://api.alexflipnote.dev/drake?text={text}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/drake?text={text}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6458,7 +6458,7 @@ You have risk mode disabled, you cant use this command.
             else:
                 await ctx.send("This command requires an alexflipnote API key.")                     
         else:                
-            image = requests.get(f"https://api.alexflipnote.dev/jokeoverhead?image={imageurl}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/jokeoverhead?image={imageurl}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6484,7 +6484,7 @@ You have risk mode disabled, you cant use this command.
         else:                
             text1 = text1.replace(" ", "+")
             text2 = text2.replace(" ", "+")
-            image = requests.get(f"https://api.alexflipnote.dev/pornhub?text={text1}&text2={text2}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/pornhub?text={text1}&text2={text2}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6509,7 +6509,7 @@ You have risk mode disabled, you cant use this command.
                 await ctx.send("This command requires an alexflipnote API key.")                     
         else:                
             imageurl = avatarUrl(user.id, user.avatar)
-            image = requests.get(f"https://api.alexflipnote.dev/salty?image={imageurl}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/salty?image={imageurl}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6535,7 +6535,7 @@ You have risk mode disabled, you cant use this command.
         else:                
             user1 = avatarUrl(user1.id, user1.avatar)
             user2 = avatarUrl(user2.id, user2.avatar)
-            image = requests.get(f"https://api.alexflipnote.dev/ship?user={user1}&user2={user2}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/ship?user={user1}&user2={user2}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6560,7 +6560,7 @@ You have risk mode disabled, you cant use this command.
                 await ctx.send("This command requires an alexflipnote API key.")                     
         else:                
             text = text.replace(" ", "+")
-            image = requests.get(f"https://api.alexflipnote.dev/supreme?text={text}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000?text={text}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6586,7 +6586,7 @@ You have risk mode disabled, you cant use this command.
         else:                
             trash = avatarUrl(user.id, user.avatar)
             face = avatarUrl(BetterGhost.user.id, BetterGhost.user.avatar)
-            image = requests.get(f"https://api.alexflipnote.dev/trash?trash={trash}&face={face}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/trash?trash={trash}&face={face}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
@@ -6610,7 +6610,7 @@ You have risk mode disabled, you cant use this command.
             else:
                 await ctx.send("This command requires an alexflipnote API key.")                     
         else:                
-            image = requests.get(f"https://api.alexflipnote.dev/what?image={imageurl}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
+            image = requests.get(f"http://localhost:5000/what?image={imageurl}", headers={"Authorization": CONFIG["api_keys"]["alexflipnote"]})
             imageFile = open("image.png", "wb").write(image.content)
             file = discord.File("image.png", filename="image.png")
             if __embedmode__:
