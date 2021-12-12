@@ -1,6 +1,6 @@
 {
     "token": "YOUR TOKEN HERE",
-    "prefix": ".", // prefix dont change if u want to use scripts from https://github.com/5mf/GhostSelfBot-Scripts
+    "prefix": ".", // prefix dont change if u want to use scripts from github.com/5mf/GhostSelfBot-Scripts
     "delete_timeout": 15,
     "theme": "sigma",
     "riskmode": false,
