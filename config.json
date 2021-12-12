@@ -1,8 +1,8 @@
 {
-    "token": "YOUR TOKEN",
-    "prefix": ".",
+    "token": "YOUR TOKEN HERE",
+    "prefix": ".", // prefix dont change if u want to use scripts from https://github.com/5mf/GhostSelfBot-Scripts
     "delete_timeout": 15,
-    "theme": "BetterGhost",
+    "theme": "sigma",
     "riskmode": false,
     "giveaway_join_delay": 15,
     "giveaway_sniper_ui": false,
@@ -38,7 +38,7 @@
         "dmtyping": true,
         "guildleave": true
     },
-    "embed_mode": false,
+    "embed_mode": true,
     "ignored_servers": {
         "nitro": [],
         "privnote": [],
@@ -53,7 +53,7 @@
     },
     "api_keys": {
         "tenor": "",
-        "alexflipnote": ""
+        "alexflipnote": "dontchangethis" // dont change this is for image commands.
     },
     "afkmode": {
         "enabled": false,
