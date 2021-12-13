@@ -16,7 +16,52 @@ Feel free to use any of the code found in this project for your own project.
 
 > # 👻 FAQ / INFO
 > - ## Image api
-  > Added this recently, u can make memes with ur text with just a command, <a href="https://github.com/5mf/imageapi">click me to go to the api-source</a>
+  > - Added this recently, u can make memes with ur text with just a command, <a href="https://github.com/5mf/imageapi">click me to go to the api-source</a>
+  > - Here are image api commands :
+
+> **meme** » A random meme.
+
+> **cat** » A random cat image.
+
+> **dog** » A random dog image.
+
+> **shiba** » A random shiba image.
+
+> **fox** » A random fox image. (Thanks Imf44)
+
+> **avatar** [@user]** » Get the mentioned user's avatar.
+
+> **servericon** » Get the server's icon. 
+
+> **achievement** ["text"] (icon)** » Create a fake minecraft achievement image.
+
+> **challenge** ["text"] (icon)** » Create a fake minecraft challenge image.
+
+> **captcha** [text]** » Create a fake reCaptcha.
+
+> **amiajoke** [@user]** » Make a user a joke.
+
+> **didyoumean** ["text 1"] ["text 2"]** » Create a google did you mean image.
+
+> **drake** ["text 1"] ["text 2"]** » Create a drake meme image.
+
+> **facts** [text]** » Create a facts meme image.
+
+> **jokeoverhead** [image url]** » Create a joke over head image.
+
+> **pornhub** ["text 1"] ["text 2"]** » Create a pornhub logo image.
+
+> **salty** [@user]** » Make someone salty.
+
+> **ship** [@user 1] [@user 2]** » Ship two people.
+
+> **supreme** [text]** » Create a supreme logo image.
+
+> **trash** [@user]** » Put someone in the trash.
+
+> **what** [image url]** » Make a what meme.
+
+<br />
 
 
 > - ## Custom UI ( In App )
