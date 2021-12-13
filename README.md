@@ -16,7 +16,9 @@ Feel free to use any of the code found in this project for your own project.
 
 > # 👻 FAQ / INFO
 > - ## Image api
-  > Added this recently, u can make memes with ur text with just a command, api source-code is posted on my github.
+  > Added this recently, u can make memes with ur text with just a command, <a href="https://github.com/5mf/imageapi">click me to go to the api-source</a>
+
+
 > - ## Custom UI ( In App )
   > You can change the ui where it says "ghost" in the app ui , this can be changed by going to the themes folder and edit the theme u are using ```"consolemode": "new",```, " but i dont know the names like what is 'new' " well i will put them here, list : 
   > - #### <a href="https://pastebin.com/raw/BEhQmtXj">new(click me)</a>
