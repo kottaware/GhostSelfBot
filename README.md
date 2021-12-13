@@ -29,7 +29,7 @@ Feel free to use any of the code found in this project for your own project.
 
 > **fox** » A random fox image. (Thanks Imf44)
 
-> **avatar** [@user]** » Get the mentioned user's avatar.
+> **avatar** [@user] » Get the mentioned user's avatar.
 
 > **servericon** » Get the server's icon. 
 
@@ -37,29 +37,29 @@ Feel free to use any of the code found in this project for your own project.
 
 > **challenge** ["text"] (icon)** » Create a fake minecraft challenge image.
 
-> **captcha** [text]** » Create a fake reCaptcha.
+> **captcha** [text] » Create a fake reCaptcha.
 
-> **amiajoke** [@user]** » Make a user a joke.
+> **amiajoke** [@user] » Make a user a joke.
 
 > **didyoumean** ["text 1"] ["text 2"]** » Create a google did you mean image.
 
 > **drake** ["text 1"] ["text 2"]** » Create a drake meme image.
 
-> **facts** [text]** » Create a facts meme image.
+> **facts** [text] » Create a facts meme image.
 
-> **jokeoverhead** [image url]** » Create a joke over head image.
+> **jokeoverhead** [image url] » Create a joke over head image.
 
-> **pornhub** ["text 1"] ["text 2"]** » Create a pornhub logo image.
+> **pornhub** ["text 1"] ["text 2"] » Create a pornhub logo image.
 
-> **salty** [@user]** » Make someone salty.
+> **salty** [@user] » Make someone salty.
 
-> **ship** [@user 1] [@user 2]** » Ship two people.
+> **ship** [@user 1] [@user 2] » Ship two people.
 
-> **supreme** [text]** » Create a supreme logo image.
+> **supreme** [text] » Create a supreme logo image.
 
-> **trash** [@user]** » Put someone in the trash.
+> **trash** [@user] » Put someone in the trash.
 
-> **what** [image url]** » Make a what meme.
+> **what** [image url] » Make a what meme.
 
 <br />
 
