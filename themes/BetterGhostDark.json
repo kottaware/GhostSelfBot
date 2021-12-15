@@ -3,9 +3,9 @@
     "embedcolour": "#2F3136",
     "consolecolour": "#2F3136",
     "embedfooter": "5mf.github.io/ghost/",
-    "embedfooterimage": "https://github.com/5mf/ghost/blob/main/assets/ghost.png?raw=true",
+    "embedfooterimage": "https://raw.githubusercontent.com/5mf/ghost/main/assets/ghost%20icon.gif",
     "globalemoji": ":black_heart:",
-    "embedimage": "https://github.com/5mf/ghost/blob/main/assets/ghost.png?raw=true",
+    "embedimage": "https://raw.githubusercontent.com/5mf/ghost/main/assets/ghost%20icon.gif",
     "consolemode": "bear",
     "embedlargeimage": ""
 }
